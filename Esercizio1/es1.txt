@@ -1,0 +1,23 @@
+
+
+Risposte
+
+1)  <!DOCTYPE html>     INLINE
+
+2)  <a>                 INLINE
+
+3)  <h1>                BLOCK
+
+4)  <ul>                BLOCK
+
+5)  <br>                INLINE
+
+6)  <li>                BLOCK
+
+7)  <ol>                BLOCK
+
+8)  <img>               INLINE
+
+9)  <q>                 INLINE
+
+10) <blockquote>        BLOCK
