@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <a rel="stylesheet" type="text/javascript" href="es3.js">
+</head>
+
+
+<body>
+    
+
+
+    <form name="form" method="get" action="">
+        <div id="div1">
+        cognome:
+        <input type="text" name="cognome" maxlength="40" placeholder="cognome">
+        
+        nome:
+        <input type="text" name="nome" maxlength="30" placeholder="nome">
+        
+        matricola:
+        <input type="number" name="matricola" size="12" maxlength="12" min="0" placeholder="matricola">
+        
+        </div>
+
+        <div id="div2">
+        regione:
+        <select name="regione">
+            <option value=""></option>
+            <option value="valle d'aosta">Valle d’Aosta</option>
+            <option value="piemonte">Piemonte</option>
+            <option value="liguria">Liguria</option>
+            <option value="lombardia">Lombardia</option>
+            <option value="veneto">Veneto</option>
+            <option value="trentino">Trentino Alto Adige</option>
+            <option value="friuli">Friuli Venezia-Giulia</option>
+            <option value="emilia">Emilia-Romagna</option>
+            <option value="toscana">Toscana</option>
+            <option value="marche">Marche</option>
+            <option value="umbria">Umbria</option>
+            <option value="lazio">Lazio</option>
+            <option value="abruzzo">Abruzzo</option>
+            <option value="molise">Molise</option>
+            <option value="campania">Campania</option>
+            <option value="basilicata">Basilicata</option>
+            <option value="puglia">Puglia</option>
+            <option value="calabria">Calabria</option>
+            <option value="sicilia">Sicilia</option>
+            <option value="sardegna">Sardegna</option>
+        </select>
+        </div>
+        <div> 
+        email:
+        <input type="email" name="email" size="30" maxlength="30" placeholder="email">
+        </div>
+
+        <div>
+        telefono:
+        <input type="number" name="telefono" size="15" maxlength="15" placeholder="telefono">
+        </div>
+        richieste particolari:      
+        <textarea name="richieste" cols="60" rows="12"></textarea>
+        
+        <input type="submit" value="Invia" onclick="attiva()">
+        <input type="reset" value="Reset">
+    </form>
+
+</body>
+
+</html>
