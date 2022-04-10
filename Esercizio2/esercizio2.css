@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(157, 199, 72);
+}
+
+h1,h4 {
+    color: black;
+    width: 52%;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+
+}
+
+h3 {
+    margin: auto;
+    margin-left: 10px;
+}
+
+.header {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    align-items: center;
+
+}
+
+.header2 {
+    background-color: rgba(179, 199, 47, 0.817);
+    width: 53%;
+    margin: 25px 320px 75px;
+    display: inline-block;
+       
+}
+
+.step {
+    height: 100%;
+    margin-top: 10px;
+}
+
+.col-1 {
+    float: left;
+    width: 10px;
+    margin-top: 6px;
+    align-self:center;
+    align-content: center;
+  }
+  
+.col-2 {
+    float: left;
+    width: 100%;
+    display: inline-flexbox;
+    margin-top: 6px;
+    align-self:center;
+    align-content: center;
+  }
+
+.option {
+    width: 96%;
+    display:inline-flex;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(185, 216, 112);
+
+}
+
+.option1 {
+    width: 96%;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(185, 216, 112);
+}
+
+label {
+    width: 300px;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+input[type=text], [type = checkbox] {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 350px;
+    display: inline-block;
+    position: right;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing:border-box;
+    
+}
+
+input[type = radio]{
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 350px;
+    display: inline-block;
+    position: right;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing:border-box;
+}
+

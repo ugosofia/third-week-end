@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="./esercizio2.css">
+</head>
+
+
+<body>
+    <div class="header">
+        <h1>
+            Questionario di raccolta dati per creare una rete
+        </h1>
+
+        <h4>
+            I dati indicati di seguito sono alcuni di quelli necessari da raccogliere prima di mettersi alle prese con
+            la
+            realizzazione di una rete. <br> E' in primo luogo necessario capire le funzioni della rete, a cosa è
+            delicata?
+            Quanto
+            deve essere grande? <br> Sappiamo già che ci sarà un solo modem/router?
+            Oppure serve qualcosa di più complesso? <br> Quindi è necessario capire quanti e
+            quali sono i device che apparterranno alla rete? quali sono le <br> caratteristiche di questi device?
+            Infine una volta raccolti tutti i dati si può finalmente partire con la <br> progettazione della rete.
+        </h4>
+    </div>
+
+    <div class="header2">
+        <div class="step">
+            <h3> Step 1: i dati della rete</h3> <br>
+            <form action="" method="get">
+                <div class="option">
+                    <div class="col-1">
+                        <label>Nome e Cognome del responsabile</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="text" placeholder="Nome e Cognome">
+                    </div>
+                </div>
+                <div class="option">
+                    <div class="col-1">
+                        <label>Indirizzo</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="text" placeholder="indirizzo">
+                    </div>
+                </div>
+                <div class="option">
+                    <div class="col-1">
+                        <label> Numero delle sedi dell'azienda</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="text" placeholder="sedi">
+                    </div>
+                </div>
+                <div class="option">
+                    <div class="col-1">
+                        <label> Data di Compilazione</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="text" placeholder="gg/mm/aaaa">
+                    </div>
+                </div>
+            </form>
+
+
+        </div>
+
+        <div class="step">
+            <h3> Step 2: Dimensioni della rete in base alla tipologia</h3> <br>
+            <form action="" method="get">
+                <div class="option">
+                    <div class="col-1">
+                        <label>LAN</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="checkbox" id="lan" name="Lan" value="LAN">
+                    </div>
+                </div>
+                <div class="option">
+                    <div class="col-1">
+                        <label>MAN</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="checkbox" id="man" name="Man" value="MAN">
+                    </div>
+                </div>
+                <div class="option">
+                    <div class="col-1">
+                        <label>WAN</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="checkbox" id="wan" name="Wan" value="WAN">
+                    </div>
+                </div>
+                <div class="option">
+                    <div class="col-1">
+                        <label> Altro</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="text" placeholder="Specificare">
+                    </div>
+                </div>
+            </form>
+
+
+        </div>
+
+        <div class="step">
+            <h3> Step 3: E' già nota la forma della rete(topologia)</h3> <br>
+            <form action="" method="get">
+                <div class="option1">
+                    <div class="col-1">
+                        <label>A stella</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="radio" id="stella" name="stella" value="A stella">
+                    </div>
+                
+                
+                    <div class="col-1">
+                        <label>A bus</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="radio" id="bus" name="bus" value="A bus">
+                    </div>
+                
+                
+                    <div class="col-1">
+                        <label>Ad albero</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="radio" id="albero" name="Albero" value="Ad albero">
+                    </div>
+                
+                
+                    <div class="col-1">
+                        <label> Altro</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="text" placeholder="Specificare">
+                    </div>
+                </div>
+            </form>
+
+
+        </div>
+
+        <div class="step">
+            <h3> Step 4: Caratteristiche del PC</h3> <br>
+            <form action="" method="get">
+                <div class="option">
+                        <h2>Recupera tutti i dati del tuo PC</h2>
+                </div>
+                <div class="option">
+                    <div class="col-1">
+                        <label>Processore</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="text" placeholder="Processore">
+                    </div>
+                </div>
+                <div class="option">
+                    <div class="col-1">
+                        <label>RAM</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="text" placeholder="RAM">
+                    </div>
+                </div>
+                <div class="option">
+                    <div class="col-1">
+                        <label> C</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="text" placeholder="c">
+                    </div>
+                </div>
+                <div class="option">
+                    <div class="col-1">
+                        <label> D </label>
+                    </div>
+                    <div class="col-2">
+                        <input type="text" placeholder="d">
+                    </div>
+                </div>
+            </form>
+
+
+        </div>
+
+    </div>
+
+
+</body>
+
+
+
+</html>
